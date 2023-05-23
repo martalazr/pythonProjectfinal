@@ -13,7 +13,7 @@ def f_menu():
         return
 
     rounds = int(input(f"How many rounds do you want to play? (max. 10): "))
-    if int(rounds) not in range(0, 10):
+    if int(rounds) not in range(0, 11):
         print(f"Sorry, the rounds must be inserted as a integer smaller or equal than 10. Please try again.")
         return
 
@@ -55,7 +55,7 @@ def g_menu():
         return
 
     rounds = int(input(f"How many rounds do you want to play? (max. 10): "))
-    if int(rounds) not in range(0, 10):
+    if int(rounds) not in range(0, 11):
         print(f"Sorry, the rounds must be inserted as a integer smaller or equal than 10. Please try again.")
         return
 
